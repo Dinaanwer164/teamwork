@@ -1,0 +1,71 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container for the team section */
+.team-section {
+    background-color: #EAF6FF;
+    padding: 50px;
+    border-radius: 10px;
+    max-width: 1200px;
+    width: 90%;
+}
+
+/* Grid container for team members */
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* Individual team member card */
+.team-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect for the card */
+.team-card:hover {
+    transform: scale(1.05);
+}
+
+/* Profile photo styling */
+.profile-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+/* Typography styling */
+.name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0 5px;
+}
+
+.role {
+    font-size: 16px;
+    color: #666;
+    margin: 5px 0;
+}
+
+.bio {
+    font-size: 14px;
+    color: #444;
+    margin-top: 10px;
+}
